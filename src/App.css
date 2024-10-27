@@ -1,0 +1,12 @@
+/* src/App.css */
+.event-title {
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.scrollable-events {
+  max-height: calc(100vh - 200px); /* Adjust the height as needed */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
